@@ -24,6 +24,11 @@ while True:
         clear()
     elif ask == "log out": #로그 아웃을 치면 게임 종료
         break
+    elif ask == "python the best":
+        point += 1
+        print("correct")
+        sleep(0.5)
+        clear()
     else:
         point -= 1
         print("wrong")
