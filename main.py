@@ -29,6 +29,10 @@ while True:
         print("correct")
         sleep(0.5)
         clear()
+    elif ask == "돼지":
+        print("되지는 꿀꿀 데이지도.. 껙")
+        sleep(3)
+        clear
     else:
         point -= 1
         print("wrong")
