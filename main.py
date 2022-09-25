@@ -2,8 +2,9 @@ from time import sleep
 import random
 import os
 
-def clear():
-    return os.system("clear")
+import os
+clear = lambda : os.system('cls')
+clear()
 
 user = input("이름을 입력해 주세요: ") #유저네임 저장
 
